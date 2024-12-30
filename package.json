@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/felipewesley/jogo-mega-da-virada/issues"
   },
-  "homepage": "https://github.com/felipewesley/jogo-mega-da-virada#readme"
+  "homepage": "https://github.com/felipewesley/jogo-mega-da-virada#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
 }
