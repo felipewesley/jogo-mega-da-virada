@@ -6,9 +6,20 @@
     <title>Jogo | Mega da Virada</title>
     <link href="./styles/output.css" rel="stylesheet">
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
+<body class="p-14">
+    <h1 class="text-center text-3xl font-bold underline">
+        Mega da Virada
     </h1>
+    <div class="text-center m-8">
+        <button class="rounded-full px-8 py-4 border-2 transition ease-in border-blue-500 text-blue-500 bg-transparent hover:bg-blue-500 hover:text-white">
+            <span class="font-semibold uppercase">
+                Gerar números
+            </span>
+        </button>
+    </div>
+    <div class="flex justify-center select-none">
+        <ul class="flex flex-row"></ul>
+    </div>
+    <script type="module" src="./scripts/script.js"></script>
 </body>
 </html>
