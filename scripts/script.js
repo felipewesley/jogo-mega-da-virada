@@ -50,7 +50,7 @@ function adicionarAoHTML(numero) {
     div.appendChild(span);
 
     const li = document.createElement('li');
-    li.classList.add('group', 'px-2');
+    li.classList.add('group', 'p-2');
     li.appendChild(div);
 
     ul.appendChild(li);
