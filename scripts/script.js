@@ -82,10 +82,8 @@ fetch(jogosAnterioresUrl)
             }
         }
     
-        // for (const [index, num] of numeros.entries()) {
-            //     setTimeout(() => {
-                        adicionarAoHTML(num);
-        //     }, 1000 * index);
-        // }
+        for (const num of numeros) {
+                adicionarAoHTML(num);
+        }
     }
 });
