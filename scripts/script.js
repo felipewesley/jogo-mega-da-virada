@@ -3,6 +3,10 @@ const jogosAnterioresUrl = 'assets/jogos-anteriores.json';
 const ul = document.querySelector('ul');
 const btnGerarNumeros = document.querySelector('button');
 
+window.onload = () => {
+    ul.innerHTML = '';
+}
+
 function gerarNumeroAleatorio(min = 1, max = 60) {
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
